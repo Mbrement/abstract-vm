@@ -1,5 +1,6 @@
 #pragma once	
 
+#include "factory.hpp"
 #include <iostream>
 
 class VM {
@@ -8,6 +9,4 @@ public:
 	~VM();
 	VM(const VM& other);
 	VM& operator=(const VM& other);
-	VM(VM&& other);
-	VM& operator=(VM&& other);
 };

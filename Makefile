@@ -1,6 +1,6 @@
 SRCS	=	main.cpp\
 			VM.cpp\
-			
+			int8.cpp\
 				
 
 DIR_SRCS = src/
@@ -16,12 +16,14 @@ CC++	=	c++
 MKDIR	=	mkdir -p
 
 HEADERS	=	VM.hpp\
+			IOperand.hpp\
+			int8.hpp\
 			
 
 NAME	=	abstractVM
 
 
-C++FLAGS	= -Wall -Wextra -Werror -std=c++98 -g3
+C++FLAGS	= -Wall -Wextra -Werror -g3
  
 all :		${NAME}
 
