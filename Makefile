@@ -1,5 +1,6 @@
 SRCS	=	main.cpp\
-			VN.cpp\
+			VM.cpp\
+			
 				
 
 DIR_SRCS = src/
